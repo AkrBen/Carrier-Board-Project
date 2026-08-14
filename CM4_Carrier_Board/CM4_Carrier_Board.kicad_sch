@@ -1793,22 +1793,22 @@
 		(uuid "0b8731b8-600c-428b-83f8-dd299f7057c0")
 	)
 	(junction
-		(at 166.37 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0edaea66-518b-4f30-9feb-8fdd3f9a6e42")
-	)
-	(junction
 		(at 85.09 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20e2372c-518d-40b9-a1fd-cd4025238631")
 	)
 	(junction
+		(at 166.37 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fe1537e-c32b-480d-be4e-37fb15412a96")
+	)
+	(junction
 		(at 166.37 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "505d9776-5496-4b09-ad7f-b9d31388504e")
+		(uuid "486f987c-b5d7-44f7-bd67-dc63e8fcfea5")
 	)
 	(junction
 		(at 106.68 124.46)
@@ -1884,16 +1884,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 124.46) (xy 204.47 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0101c9e7-3838-4be4-ae51-74d6245a734b")
-	)
-	(wire
-		(pts
 			(xy 139.7 106.68) (xy 139.7 124.46)
 		)
 		(stroke
@@ -1911,6 +1901,16 @@
 			(type default)
 		)
 		(uuid "0b69e6eb-4850-4a1f-a4c0-b15b458040c0")
+	)
+	(wire
+		(pts
+			(xy 166.37 106.68) (xy 166.37 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f27d391-7ebe-443d-85d9-bd2619262ead")
 	)
 	(wire
 		(pts
@@ -2004,26 +2004,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 118.11) (xy 166.37 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44d878cb-df75-490f-ae8a-3b07694d8e22")
-	)
-	(wire
-		(pts
-			(xy 166.37 106.68) (xy 166.37 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45a0618f-a241-42dd-a45a-289d80234f64")
-	)
-	(wire
-		(pts
 			(xy 93.98 99.06) (xy 93.98 124.46)
 		)
 		(stroke
@@ -2084,6 +2064,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 124.46) (xy 204.47 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b038b96-45e0-4473-a85c-76c7807c5aa3")
+	)
+	(wire
+		(pts
 			(xy 85.09 93.98) (xy 87.63 93.98)
 		)
 		(stroke
@@ -2091,6 +2081,16 @@
 			(type default)
 		)
 		(uuid "82140634-37cb-4e3e-914e-005a869c617b")
+	)
+	(wire
+		(pts
+			(xy 166.37 118.11) (xy 166.37 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92d54b9f-d936-44a6-8981-b8c2a720cc3f")
 	)
 	(wire
 		(pts
@@ -2104,7 +2104,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 99.06) (xy 170.18 99.06)
+			(xy 166.37 99.06) (xy 176.53 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2407,7 +2407,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 170.18 99.06 270)
+		(at 176.53 99.06 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2417,7 +2417,7 @@
 		(dnp no)
 		(uuid "283aaa0c-a359-497d-a348-c7cf39215a33")
 		(property "Reference" "#PWR04"
-			(at 166.37 99.06 0)
+			(at 172.72 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2428,7 +2428,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 173.228 99.06 90)
+			(at 179.578 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2439,7 +2439,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 99.06 0)
+			(at 176.53 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2450,7 +2450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 99.06 0)
+			(at 176.53 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2461,7 +2461,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 170.18 99.06 0)
+			(at 176.53 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2577,6 +2577,7 @@
 	(symbol
 		(lib_id "Device:LED")
 		(at 166.37 114.3 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2584,10 +2585,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "42e8987c-d377-45b5-a484-a4d926215005")
-		(property "Reference" "D2"
-			(at 168.91 111.4424 90)
+		(property "Reference" "PWR"
+			(at 168.91 117.1576 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2598,7 +2598,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 168.91 113.9824 90)
+			(at 168.91 114.6176 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2661,7 +2661,7 @@
 		(instances
 			(project "CM4_Carrier_Board"
 				(path "/f7b1e63c-7624-492a-bdf8-5574ba799d92"
-					(reference "D2")
+					(reference "PWR")
 					(unit 1)
 				)
 			)
