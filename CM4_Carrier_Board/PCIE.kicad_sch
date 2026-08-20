@@ -2028,6 +2028,12 @@
 		(uuid "37ae99b5-14d7-4056-8f8d-f0d68d19fc20")
 	)
 	(junction
+		(at 87.63 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46b76fe8-c245-4659-9396-cb1db5e8a9f8")
+	)
+	(junction
 		(at 67.31 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2056,6 +2062,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8be8f605-445e-4ec0-b851-9530548c62a0")
+	)
+	(junction
+		(at 110.49 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9880fbbf-d304-44b7-8ffa-223609f73c6a")
 	)
 	(junction
 		(at 140.97 182.88)
@@ -2191,6 +2203,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 17.78) (xy 87.63 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12a3e31e-2e86-4f64-8255-cfc1a5b9320a")
+	)
+	(wire
+		(pts
 			(xy 96.52 170.18) (xy 140.97 170.18)
 		)
 		(stroke
@@ -2218,6 +2240,16 @@
 			(type default)
 		)
 		(uuid "2cbd37d4-0309-41db-880b-9b7c185db493")
+	)
+	(wire
+		(pts
+			(xy 110.49 17.78) (xy 140.97 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e0878b3-0533-480c-9e1f-444a329848d8")
 	)
 	(wire
 		(pts
@@ -2351,6 +2383,26 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 17.78) (xy 110.49 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bcf6e8b-4417-4456-9644-492e00f77c9e")
+	)
+	(wire
+		(pts
+			(xy 110.49 17.78) (xy 110.49 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c547a2e-76bf-462b-89cd-c5435b311e29")
+	)
+	(wire
+		(pts
 			(xy 67.31 170.18) (xy 67.31 182.88)
 		)
 		(stroke
@@ -2401,7 +2453,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 17.78) (xy 140.97 17.78)
+			(xy 67.31 17.78) (xy 87.63 17.78)
 		)
 		(stroke
 			(width 0)
@@ -2709,84 +2761,6 @@
 			(project "CM4_Carrier_Board"
 				(path "/f7b1e63c-7624-492a-bdf8-5574ba799d92/dd2bba14-d5c1-4103-9955-c73d810f4737/b67ecdea-3cec-451e-a041-0c470fc5de15"
 					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 87.63 24.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "354b8677-96a1-432a-a56b-c4e2857a02e6")
-		(property "Reference" "#PWR011"
-			(at 87.63 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 87.63 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 87.63 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4865a88f-1f89-40f4-9176-720b61c49cd0")
-		)
-		(instances
-			(project "CM4_Carrier_Board"
-				(path "/f7b1e63c-7624-492a-bdf8-5574ba799d92/dd2bba14-d5c1-4103-9955-c73d810f4737/b67ecdea-3cec-451e-a041-0c470fc5de15"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3543,84 +3517,6 @@
 			(project "CM4_Carrier_Board"
 				(path "/f7b1e63c-7624-492a-bdf8-5574ba799d92/dd2bba14-d5c1-4103-9955-c73d810f4737/b67ecdea-3cec-451e-a041-0c470fc5de15"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 110.49 24.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f476d073-a39f-4130-a8af-d685e27829a0")
-		(property "Reference" "#PWR010"
-			(at 110.49 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 110.49 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 110.49 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e17208c8-c67e-4633-9809-e3a11c58b9c7")
-		)
-		(instances
-			(project "CM4_Carrier_Board"
-				(path "/f7b1e63c-7624-492a-bdf8-5574ba799d92/dd2bba14-d5c1-4103-9955-c73d810f4737/b67ecdea-3cec-451e-a041-0c470fc5de15"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
