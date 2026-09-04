@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "a6f83b57-c3fb-4ff2-b6fb-b2cb07f192ce")
+	(uuid "a26eb563-3315-4e12-be42-c904a25503c0")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:HDMI_A"
@@ -2973,7 +2973,7 @@
 		)
 		(uuid "070c4491-3410-43e9-9fae-c7c1ab946fb7")
 	)
-	(label "TXC-"
+	(label "TXC_N"
 		(at 110.49 71.12 0)
 		(effects
 			(font
@@ -2983,7 +2983,7 @@
 		)
 		(uuid "17535ebd-2366-469d-9de2-d3fde32e4b52")
 	)
-	(label "TX0-"
+	(label "TX0_N"
 		(at 110.49 78.74 0)
 		(effects
 			(font
@@ -2993,7 +2993,7 @@
 		)
 		(uuid "2291f32d-f0a0-4e0f-b655-142717675868")
 	)
-	(label "TXC+"
+	(label "TXC_P"
 		(at 160.02 81.28 0)
 		(effects
 			(font
@@ -3013,7 +3013,7 @@
 		)
 		(uuid "261e15e4-4587-4f5b-a8e8-867644b30a98")
 	)
-	(label "TX2-"
+	(label "TX2_N"
 		(at 110.49 93.98 0)
 		(effects
 			(font
@@ -3023,7 +3023,7 @@
 		)
 		(uuid "360d097a-b267-40d5-ba1a-6dc98bd9d6ef")
 	)
-	(label "TX2-"
+	(label "TX2_N"
 		(at 160.02 68.58 0)
 		(effects
 			(font
@@ -3043,7 +3043,7 @@
 		)
 		(uuid "3af6075f-7ac1-4f7f-8ed0-5d301b784897")
 	)
-	(label "TXC-"
+	(label "TXC_N"
 		(at 160.02 83.82 0)
 		(effects
 			(font
@@ -3073,7 +3073,7 @@
 		)
 		(uuid "4cef36d6-066d-4150-8c8c-38e82f753c43")
 	)
-	(label "TX0-"
+	(label "TX0_N"
 		(at 160.02 78.74 0)
 		(effects
 			(font
@@ -3083,7 +3083,7 @@
 		)
 		(uuid "739c5561-c44c-443e-aa86-ce33e6201b14")
 	)
-	(label "TX1-"
+	(label "TX1_N"
 		(at 110.49 86.36 0)
 		(effects
 			(font
@@ -3093,7 +3093,7 @@
 		)
 		(uuid "828efd3d-ad8a-465d-8417-bf423eb72224")
 	)
-	(label "TX0+"
+	(label "TX0_P"
 		(at 110.49 76.2 0)
 		(effects
 			(font
@@ -3133,7 +3133,7 @@
 		)
 		(uuid "9ecaa92a-fdd6-49f1-ae38-5450254edabf")
 	)
-	(label "TX2+"
+	(label "TX2_P"
 		(at 160.02 66.04 0)
 		(effects
 			(font
@@ -3143,7 +3143,7 @@
 		)
 		(uuid "c5211f8d-648a-4770-a024-baab12c65a45")
 	)
-	(label "TX1+"
+	(label "TX1_P"
 		(at 110.49 83.82 0)
 		(effects
 			(font
@@ -3153,7 +3153,7 @@
 		)
 		(uuid "c72dcbdc-00b3-404e-8bf5-98a44fe3fac2")
 	)
-	(label "TXC+"
+	(label "TXC_P"
 		(at 110.49 68.58 0)
 		(effects
 			(font
@@ -3163,7 +3163,7 @@
 		)
 		(uuid "d2e2db39-76c0-4909-ab6f-7b1bcd78c9f1")
 	)
-	(label "TX2+"
+	(label "TX2_P"
 		(at 110.49 91.44 0)
 		(effects
 			(font
@@ -3173,7 +3173,7 @@
 		)
 		(uuid "eb500429-a737-4eda-be20-4f9ccfd22175")
 	)
-	(label "TX0+"
+	(label "TX0_P"
 		(at 160.02 76.2 0)
 		(effects
 			(font
@@ -3183,7 +3183,7 @@
 		)
 		(uuid "ed8587af-ef35-4446-a93e-3ad0e21eb294")
 	)
-	(label "TX1-"
+	(label "TX1_N"
 		(at 160.02 73.66 0)
 		(effects
 			(font
@@ -3193,7 +3193,7 @@
 		)
 		(uuid "f866559f-d668-4583-8db9-44c826f19ca6")
 	)
-	(label "TX1+"
+	(label "TX1_P"
 		(at 160.02 71.12 0)
 		(effects
 			(font
