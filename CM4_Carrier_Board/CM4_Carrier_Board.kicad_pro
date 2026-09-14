@@ -665,6 +665,18 @@
     [
       "b67ecdea-3cec-451e-a041-0c470fc5de15",
       "PCIE"
+    ],
+    [
+      "f08b4a2c-4450-4c7e-9423-84109ea9e46c",
+      "Bloc HDMI"
+    ],
+    [
+      "9280191a-8140-4859-9a7a-c3141dd4259e",
+      "Bloc USB"
+    ],
+    [
+      "a8a741d3-ae1d-4a9c-8e59-a9af53889251",
+      "Bloc GPIO"
     ]
   ],
   "text_variables": {},

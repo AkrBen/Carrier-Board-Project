@@ -1383,7 +1383,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_A_Wuerth_614004134726_Horizontal"
 			(at 68.58 59.69 0)
 			(hide yes)
 			(show_name no)

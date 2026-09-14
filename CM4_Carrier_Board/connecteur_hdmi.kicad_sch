@@ -2226,6 +2226,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 137.16 91.44)
@@ -2262,6 +2377,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd9973f1-bff7-48d3-bba5-019ac40103d1")
+	)
+	(junction
+		(at 180.34 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e96e7e87-07a4-46e8-8943-74165b35b1aa")
 	)
 	(junction
 		(at 163.83 96.52)
@@ -2565,6 +2686,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 53.34) (xy 180.34 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "653d679e-859b-4cb4-823d-3d809c1ebeb8")
+	)
+	(wire
+		(pts
 			(xy 175.26 129.54) (xy 185.42 129.54)
 		)
 		(stroke
@@ -2615,7 +2746,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 49.53) (xy 180.34 58.42)
+			(xy 180.34 49.53) (xy 180.34 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3368,7 +3499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 33.02 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -3529,7 +3660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Video:HDMI_A_Amphenol_10029449-x01xLF_Horizontal"
 			(at 180.975 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3626,6 +3757,85 @@
 			(project "CM4_Carrier_Board"
 				(path "/f7b1e63c-7624-492a-bdf8-5574ba799d92/dd2bba14-d5c1-4103-9955-c73d810f4737/f08b4a2c-4450-4c7e-9423-84109ea9e46c"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 180.34 53.34 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5971cf9d-6157-4812-b2fd-6a16a15ef187")
+		(property "Reference" "#FLG05"
+			(at 182.245 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 184.15 53.3399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 180.34 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ace1ef3c-6a11-4e6e-bece-ed195fc3286b")
+		)
+		(instances
+			(project "CM4_Carrier_Board"
+				(path "/f7b1e63c-7624-492a-bdf8-5574ba799d92/dd2bba14-d5c1-4103-9955-c73d810f4737/f08b4a2c-4450-4c7e-9423-84109ea9e46c"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -3732,7 +3942,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1uF"
 			(at 130.81 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3743,7 +3953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 127.9652 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -3822,7 +4032,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 142.24 93.218 90)
 			(hide yes)
 			(show_name no)
@@ -3901,7 +4111,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 142.24 98.552 90)
 			(hide yes)
 			(show_name no)
@@ -4139,7 +4349,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IP4786CZ32:HVQFN32"
+		(property "Footprint" "CM4_Carrier_Board:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
 			(at 77.47 88.9 0)
 			(hide yes)
 			(show_name no)
